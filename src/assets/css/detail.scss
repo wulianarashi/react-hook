@@ -1,0 +1,56 @@
+.detail {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 0 .05rem;
+    .detail-box {
+        padding: .25rem .2rem .45rem;
+        .detail-img {
+            padding-top: 100%;
+            position: relative;
+            img {
+                display: block;
+                width: 200px;
+                height: auto;
+                margin: 0 auto;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        h2 {
+            font-size: .18rem;
+            font-weight: 700;
+            line-height: .3rem;
+            letter-spacing: .02rem;
+            border-bottom: .02rem solid #333;
+            padding-bottom: .15rem;
+            margin: .2rem 0;
+        }
+        .detail-info {
+            letter-spacing: .02rem;
+            label {
+                font-size: .14rem;
+                line-height: .16rem;
+                font-weight: 700;
+            }
+            li {
+                margin-bottom: .1rem;
+                line-height: .2rem;
+                font-weight: 400;
+                font-size: .12rem;
+                &:last-child {
+                    border-bottom: .02rem solid #333;
+                    padding-bottom: .15rem;
+                }
+            }
+            p {
+                font-size: .15rem;
+                line-height: .26rem;
+                text-align: justify;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,17 @@
+.back-box {
+    background-color: #fff;
+    height: .4rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+    .back {
+        display: block;
+        background: url('../imgs/search/back.png') no-repeat 0 0;
+        background-size: contain;
+        width: .25rem;
+        height: .25rem;
+        position: absolute;
+        top: .075rem;
+        left: .1rem;
+    }
+}
